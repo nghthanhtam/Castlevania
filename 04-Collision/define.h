@@ -1,0 +1,121 @@
+#pragma once
+
+#define BACKGROUND_COLOR (D3DCOLOR_XRGB(0,0,0))
+#define MAX_FRAME_RATE 90
+
+
+//SIMON
+#define Simon_WALKING_SPEED				0.08f 
+#define Simon_WALKING_TO_STAIR_SPEED	0.058f 
+#define Enemy_FREEZE_TIME				3000
+
+#define Simon_JUMP_SPEED_Y		0.22f
+#define Simon_JUMP_DEFLECT_SPEED 0.2f
+#define Simon_GRAVITY			0.0007f
+#define Simon_DIE_DEFLECT_SPEED	 0.5f
+
+#define Simon_STATE_IDLE			0
+#define Simon_STATE_WALKING_RIGHT	100
+#define Simon_STATE_WALKING_LEFT	200
+#define Simon_STATE_JUMP			300
+#define Simon_STATE_DIE				400
+#define Simon_STATE_ATTACK			500
+#define Simon_STATE_SIT				600
+#define Simon_STATE_SIT_ATTACK		700
+#define Simon_STATE_THROWING		800
+#define Simon_STATE_ONSTAIR			900
+#define Simon_STATE_HIT_ENEMY		1000
+
+#define Simon_ANI_IDLE_RIGHT		0
+#define Simon_ANI_IDLE_LEFT			1
+#define Simon_ANI_WALKING_RIGHT		4
+#define Simon_ANI_WALKING_LEFT		5
+#define Simon_ANI_DIE_RIGHT			7
+#define Simon_ANI_DIE				8
+#define Simon_ANI_ATTACK_LEFT		9
+#define Simon_ANI_ATTACK_RIGHT		10
+#define Simon_ANI_JUMP_LEFT			11
+#define Simon_ANI_JUMP_RIGHT		12
+#define Simon_ANI_SIT_LEFT			13
+#define Simon_ANI_SIT_RIGHT			14
+#define Simon_ANI_SIT_ATTACK_LEFT	15
+#define Simon_ANI_SIT_ATTACK_RIGHT  16
+#define Simon_ANI_THROWING_LEFT		17
+#define Simon_ANI_THROWING_RIGHT	18
+#define Simon_ANI_ATTACK_TYPE2_LEFT	19
+#define Simon_ANI_ATTACK_TYPE2_RIGHT 20
+#define Simon_ANI_ATTACK_TYPE3_LEFT	21
+#define Simon_ANI_ATTACK_TYPE3_RIGHT 22
+#define Simon_ANI_SIT_ATTACK_TYPE2_LEFT	23
+#define Simon_ANI_SIT_ATTACK_TYPE2_RIGHT 24
+#define Simon_ANI_SIT_ATTACK_TYPE3_LEFT	25
+#define Simon_ANI_SIT_ATTACK_TYPE3_RIGHT 26
+#define Simon_ANI_UPSTAIR_RIGHT 27
+#define Simon_ANI_UPSTAIR_STOP_RIGHT 28
+#define Simon_ANI_DOWNSTAIR_LEFT 29
+#define Simon_ANI_DOWNSTAIR_STOP_LEFT 30
+#define Simon_ANI_HIT_ENEMY_LEFT 31
+#define Simon_ANI_HIT_ENEMY_RIGHT 32
+#define Simon_ANI_UPSTAIR_LEFT 33
+#define Simon_ANI_DOWNSTAIR_RIGHT 34
+#define Simon_ANI_DOWNSTAIR_STOP_RIGHT 35
+#define Simon_ANI_UPSTAIR_STOP_LEFT 36
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE1_LEFT 37
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE1_RIGHT 38
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE1_RIGHT 39
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE1_LEFT 40
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE2_LEFT 41
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE2_RIGHT 42
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE2_RIGHT 43
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE2_LEFT 44
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE3_LEFT 45
+#define Simon_ANI_DOWNSTAIR_ATTACK_TYPE3_RIGHT 46
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE3_RIGHT 47
+#define Simon_ANI_UPSTAIR_ATTACK_TYPE3_LEFT 48
+#define Simon_ANI_UPSTAIR_THROW_LEFT 49
+#define Simon_ANI_UPSTAIR_THROW_RIGHT 50
+#define Simon_ANI_DOWNSTAIR_THROW_LEFT 51
+#define Simon_ANI_DOWNSTAIR_THROW_RIGHT 52
+#define Simon_ANI_SIT_THROW_LEFT 53
+#define Simon_ANI_SIT_THROW_RIGHT 54
+#define Simon_ANI_CHANGE_COLOR_RIGHT 55
+#define Simon_ANI_CHANGE_COLOR_LEFT 56
+
+#define Simon_BIG_BBOX_WIDTH  15
+#define Simon_BIG_BBOX_HEIGHT 27
+
+#define Simon_UNTOUCHABLE_TIME 5000
+
+//BOSS
+#define FLY_AFTER_SLEEP 10
+#define ATTACK 20
+#define FLY_AFTER_ATTACK 30
+#define FLY_TO_THE_MIDDLE 40
+#define AIM 50
+
+//FISHMEN
+#define STATE_WALKING 10
+#define STATE_ATTACK 20
+#define ANI_WALKING 1
+#define ANI_ATTACK 2
+
+
+//PANTHER
+#define STATE_RUNNING 100
+#define STATE_JUMPING 200
+#define STATE_FALLING 300
+
+
+//Scene2
+
+#define SCREEN_WIDTH 320
+#define SCREEN_HEIGHT 240
+#define ID_TEX_Simon 0
+#define ID_TEX_WHIP 1
+#define ID_TEX_OBJECT 2
+#define ID_TEX_ITEM 3
+#define ID_TEX_MAP1 4
+#define ID_TEX_MAP2 5
+#define ID_TEX_BOARD 6
+#define ID_TEX_ENEMY 10
+#define ID_TEX_MISC 20
