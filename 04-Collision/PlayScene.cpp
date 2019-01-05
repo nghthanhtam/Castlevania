@@ -840,7 +840,7 @@ void PlayScene::LoadResources()
 void PlayScene::Update(DWORD dt)
 {
 	//DebugOut(L"[INFO] KeyDown: %f\n", Simon->GetPosition().x);
-	
+	//
 
 #pragma region MOVE SCENE
 
