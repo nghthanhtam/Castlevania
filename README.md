@@ -8,7 +8,7 @@ Sinh viên thực hiện: Nguyễn Huỳnh Thanh Tâm
 # Môi trường phát triển
 <li>Microsoft Visual Studio 2016</li>
 
-#Thư viện, phần mềm hỗ trợ
+# Thư viện, phần mềm hỗ trợ
 <li>DirectX 9</li>
 <li>Tiled Map Editor</li>
 
